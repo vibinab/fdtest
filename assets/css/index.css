@@ -1,0 +1,761 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* NAVBAR */
+.navbar .mainnavbar {
+    position: relative;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+
+
+/* navbar menu */
+
+.navbar .mainnavbar .navbarmenu {
+    display: flex;
+    /* justify-content: start; */
+    margin-left: 2.5rem;
+    z-index: 1;
+}
+
+
+
+
+
+.navbar .mainnavbar li {
+    list-style: none;
+    margin-left: 5rem;
+    font-size: 0.7rem;
+
+}
+
+/* navbar green menu */
+
+.navbar .box1 {
+    height: 25rem;
+    width: 18rem;
+    background-color:#9dc209;
+    position: absolute;
+    margin-top: -4rem;
+    left: 59%;
+    opacity: 0.7;
+    
+}
+
+
+
+/* first div */
+
+/* first1 */
+.first .mainfirstdiv  {
+    display: flex;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    margin-top: 8rem;
+   
+}
+
+
+.first .mainfirstdiv .first1 p {
+
+    /* border: 2px solid black; */
+    width: 46%;
+    font-size: 0.8rem;
+}
+
+.first1 {
+    /* border: 2px solid black; */
+    width: 99%;
+    margin-top: 1rem;
+    
+   
+}
+
+.first h1 {
+    font-size: 2.8rem;
+    word-spacing: 0.5rem;
+}
+
+
+
+
+
+.first1 .firstbtn {
+    background-color:#9dc209;
+    position: absolute;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 5%;
+
+    opacity: 0.8;
+    font-size: 0.6rem;
+    color: white;
+    border: none;
+}
+
+.first2{
+    position: relative;
+    margin-top: -2rem;
+}
+
+/* first2 */
+.first2  img{
+    width: 100%;
+    height: 92%;
+    margin-left: -2rem;
+    
+
+
+}
+
+
+
+/* second div  */
+
+.second {
+    margin-top: 2rem;
+}
+.second .mainseconddiv {
+    display: flex;
+    
+    
+
+}
+
+/* heading */
+.second1 {
+    position: relative;
+}
+
+.second1 .second1head{
+    position: absolute;
+    top: 3%;
+    font-size: 5rem;
+    font: bold;
+    left: 32%;
+    line-height: 3.5rem;
+    
+    font-weight: 500;
+}
+
+
+/* image */
+
+.second .second1 img {
+    width: 78%;
+    height: 75%;
+}
+
+.second2{
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+
+.second2 .second2content p{
+    font-size: 0.8rem;
+}
+
+.second2 .second2content p:first-child{
+    color: #9dc209;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.second2 .second2content p:last-child {
+    margin-top: 0.5rem;
+    width: 65%;
+}
+
+
+
+/* third  */  
+
+.third {
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    
+}
+
+.third h1 {
+    font-size: 2.8rem;
+}
+
+/* head */
+.third .thirdhead {
+    /* border: 2px solid black; */
+    width: 43%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+}
+
+/* main card */
+
+.third .maincard,.maincard2  {
+    display: flex;
+    padding-left: 8rem;
+    padding-right: 3rem;
+    margin-top: 4rem;
+
+    /* border: 2px solid black; */
+}
+
+
+
+.third .maincard .card1  {
+    margin:0 auto;
+    position: relative;
+    /* font: bold; */
+    font-size: 0.8rem;
+}
+.third .maincard .card1 img {
+    height: 60%;
+    width: 30%;
+}
+
+.third .maincard2 .card2{
+    position: relative;
+    /* font: bold; */
+    font-size: 0.8rem;
+     margin: 0 auto;
+     margin-left: 2.5rem;
+
+
+}
+
+
+.third .maincard2  div:first-child {
+    margin-left: 2rem;
+}
+
+.third .maincard2  div:last-child {
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.third .maincard2 .card2 img {
+    height: 60%;
+    width: 30%;
+    
+}
+
+.third .maincard2  div:last-child img {
+    height: 70%;
+    width: 42%;
+
+
+}
+
+
+
+
+.third .maincard .card1 p{
+    width: 70%;
+}
+
+.third .maincard2 .card2 p{
+    width: 70%;
+}
+
+
+
+
+/* button */
+
+.maincard .card1 button {
+    background: none;
+    border:none;
+    color:#9dc209;
+    font-size: 0.7rem;
+}
+
+.maincard2 .card2 button {
+    background: none;
+    border:none;
+    color:#9dc209;
+    font-size: 0.7rem;
+}
+
+
+/* box */ 
+
+
+.maincard .card1 .box2{
+    display: block;
+    
+    height: 2rem;
+    width:1.3rem;
+    background-color:#9dc209;
+    border: 2px #9dc209;
+    color:#9dc209;
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    
+}
+
+.maincard2 .card2 .box2{
+    display: block;
+    
+    height: 2rem;
+    width:1.3rem;
+    background-color:#9dc209;
+    border: 2px #9dc209;
+    color: #9dc209;
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    
+}
+
+
+/* four  */
+
+
+.mainfour {
+    display: flex;
+    padding-left: 6rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+
+.mainfour .four1 .item1,.item2, .item3, .item4{
+    position: relative;
+    font-size: 1rem;
+  font-weight: lighter;
+
+} 
+
+.mainfour .four1  .fourborder1{
+    height: 0.2rem;
+    width: 1.5rem;
+    background-color:#9dc209;
+    position: absolute;
+    top:-10%;
+    color:#9dc209;
+}
+
+.mainfour  .four2 {
+    background-color:#9dc209;
+    color: white;
+    height: 17rem;
+    width: 22rem;
+    margin-right: 0.5rem;
+    /* margin-left: 22rem; */
+   
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 14rem 14rem ;
+    grid-template-rows: repeat(3,7rem);
+}
+
+.four2 .four2content {
+    font-size: 4rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-weight: 500;
+
+}
+
+
+/* five  */ 
+
+.mainfive{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainfive .five1 {
+    margin-top: 6rem;
+    font-weight: lighter;
+}
+
+.mainfive .five1 h1 {
+    font-size: 3.5rem;
+    /* border: 2px solid black; */
+    width: 60%;
+    letter-spacing: 0.2rem;
+    font-weight: 1000;
+    color:#9dc209;
+    opacity: 0.8;
+    line-height: 3.2rem;
+}
+
+.mainfive .five1 p{
+    /* border: 2px solid black; */
+    width: 150%;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+/* five second part */
+.five2{
+    margin-left: 31rem;
+}
+
+.five2 .galleryfive2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.five2 .galleryfive2 .g1 img {
+    height: 96%;
+    width: 85%;
+    margin-left: 3rem;
+} 
+
+.five2 .galleryfive2 .g2 {
+    margin-top: -1.5rem;
+    margin-left: 0.5rem;
+}
+
+.five2 .galleryfive2 .g2 .g2sub{
+    height: 40%;
+}
+.five2 .galleryfive2 .g2 img {
+    height: 55%;
+    width: 80%;
+}
+
+.five2 .galleryfive2 .g3{
+    margin-top: -0.2rem;
+    margin-left: 3rem;
+}
+
+.five2 .galleryfive2 .g3 img {
+    height: 70%;
+    width: 105%;
+}
+
+.five2 .galleryfive2 .g4 img {
+    height: 90%;
+    width: 80%;
+}
+.five2 .galleryfive2 .g4 {
+
+    margin-left: 0.5rem;
+    margin-top: -0.2rem;
+}
+
+.sectionsix .mainsix {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+
+}
+
+.sectionsix .mainsix .six2{
+    
+    margin-right: 8rem;
+    margin-top: 7rem;
+    /* margin-left: 44rem; */
+    
+    
+}
+
+
+
+.mainsix .six1{
+    
+    background-color:#9dc209;
+    position: absolute;
+    height: 11rem;
+    width: 25rem;
+    padding: 1rem;
+
+    font-size: 1rem;
+    color: white;
+    opacity: 0.8;
+    
+}
+
+
+
+.mainsix .six1 .six1content {
+    margin-top: 2rem;
+    /* margin-bottom: 0.5rem; */
+
+    
+}
+
+.mainsix .six1 .six1content p:first-child{
+    font-size: 2.6rem;
+    margin-left: 4rem;
+}
+
+.mainsix .six1 .six1content p:last-child{
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    text-decoration: underline;
+
+}
+
+.mainsix .six1 .six1icon {
+    margin-left: 4.5rem;
+    margin-top: 0.5rem;
+    
+}
+
+.mainsix .six1 .six1icon img {
+    height: 4%;
+    width: 4%;
+}
+
+.mainsix .six2{
+    font-size: 0.8rem;
+    font-weight: lighter;
+
+}
+
+
+
+@media only screen and (max-width: 960px) {
+
+    /* navbar  */ 
+    .navbar {
+        display: none;
+    }
+
+    /* first div */
+    .first .mainfirstdiv {
+      display: flex;
+      flex-direction: column;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      margin-top: 1rem;
+
+    }
+
+
+    
+
+    .first .mainfirstdiv .first1 p {
+
+        /* border: 2px solid black; */
+        width: 90%;
+        font-size: 0.9rem;
+        
+    }
+
+    .first2{
+        margin-top: 4rem;
+        margin-left: 3rem;
+
+    }
+    
+
+
+    /* first2 image */
+    .mainfirstdiv .first2  img{
+        width: 60%;
+        height: 60%;
+        
+        
+    }
+
+    /* second */
+    .second .mainseconddiv {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .second .second1 img {
+        width: 50%;
+    }
+
+    /* second2 */
+
+    .second2{
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    .second1 .second1head {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+
+    
+
+    .second2 .second2content p:last-child{
+        width: 90%;
+    }
+
+    /* third */
+    .third {
+        margin-left: 0rem;
+
+    }
+
+    .third h1 {
+        font-size: 2rem;
+    }
+    
+
+    .third .thirdhead {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .third .maincard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        
+    }
+
+    .third .maincard2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        
+    }
+    .third .maincard  .card1{
+        margin-top: 3rem;
+    }
+
+    .third .maincard2 .card2{
+        margin-top: 3rem;
+    }
+
+
+    
+    
+
+    
+
+    
+    .third .maincard .card1 p {
+        width: 70%;
+    }
+    .third .maincard2 .card2 p {
+        width: 70%;
+    }
+    .third .maincard,.maincard2  {
+        display: flex;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    
+        /* border: 2px solid black; */
+    }
+    
+    
+    /* main four */
+    .mainfour{
+    padding-left: 0rem;
+    }
+
+    .mainfoursection .mainfour {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 8rem;
+        grid-template-columns: 5rem 5rem ;
+        grid-template-rows: repeat(3,15rem);
+    }
+    .mainfour  .four2 {
+        background-color: lightgreen;
+        color: white;
+        height: 7rem;
+        width: 70%;
+        margin-left: 2rem;
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+    .four2 .four2content {
+        font-size: 2rem;
+        padding: 0rem;
+    
+    }
+
+    /* section 5 */ 
+    .mainfive {
+        padding-left: 2rem;
+        padding-right: 4rem;
+        margin-top: 3rem;
+    }
+
+    
+
+    .five2{
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    .sectionfive .mainfive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* five1  */
+
+    .mainfive .five1 p{
+        /* border: 2px solid black; */
+        width: 95%;
+        font-size: 0.9rem;
+    }
+    .mainfive .five1 h1 {
+        font-size: 2rem;
+        
+
+    }
+
+
+
+    /* five2 */
+    .five2 .galleryfive2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:50% 50%;
+        gap:2rem;
+        margin-top: 2rem;
+    }
+    /* six  */
+
+    .mainsix {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        
+    }
+    .mainsix .six1{
+        width: 100%;
+    }
+    .mainsix .six2{
+        text-align: center;
+        width: 100%;
+        margin-top: 5rem;
+    }
+    
+
+    
+  }
